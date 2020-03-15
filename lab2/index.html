@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Counter</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="input">
+                <input class="header-font" id="hour" placeholder="0">
+                <div class="label header-font">时</div>
+            </div>
+            <div class="input">
+                <input class="header-font" id="minute" placeholder="0">
+                <div class="label header-font">分</div>
+            </div>
+            <div class="input">
+                <input class="header-font" id="second" placeholder="0">
+                <div class="label header-font">秒</div>
+            </div>
+            <div id="hint" class="hint hint-font hidden">''</div>
+            <button class="header-font bg-blue" id="countup">开始正计时</button>
+            <button class="header-font bg-blue" id="countdown">开始倒计时</button>
+            <button class="header-font bg-blue hidden" id="resume">恢复计时器</button>
+            <button class="header-font bg-blue hidden" id="pause">暂停计时器</button>
+            <button class="header-font clear bg-red hidden" id="clear">清空正计时</button>
+            <button class="header-font restart bg-yellow hidden" id="restart">重新再计时</button>
+        </div>
+        <div class="rectangle">
+            <div class="time time-font" id="time">00:00:00</div>
+        </div>
+        <script type="text/javascript" src="app.js"></script>
+    </body>
+</html>
