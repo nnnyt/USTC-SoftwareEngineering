@@ -2,7 +2,6 @@
 
 > An api lab based on Django.
 
-Author: PB17111577 宁雨亭
 
 ## Build & Run
 
